@@ -16,7 +16,7 @@ cc.Class({
     //开始游戏
     startGame: function(){
         cc.director.loadScene ('main',function(){
-            console.log('main is loaded');
+            console.log('main is loaded11111111');
         }) 
     },
     // called every frame
