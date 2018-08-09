@@ -69,7 +69,7 @@ cc.Class({
         this.eState = D.commonInfo.gameState.none;
         //初始化无限子弹组
         D.common.initObjPool(this, this.bulletInfinite);
-        //初始化🈶️限子弹组
+        //初始化有限子弹组
         D.common.batchInitObjPool(this, this.bulletFiniteG);
     },
 
